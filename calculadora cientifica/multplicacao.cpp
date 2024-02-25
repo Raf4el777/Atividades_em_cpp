@@ -12,8 +12,10 @@ using namespace std;
 */
 
 int main(){
-
-    int quant_num, num, res = 1;
+    //verifica quantidade de numeros a ser digitados
+    int q;
+    
+    float numero, contador = 0;
 
     cout << "Quantos números você quer multiplicar? ";
 
